@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Ahorcado</title>
+</head>
+
+<body>
+    <header>
+        <h1>Ahorcado con imágenes</h1>
+    </header>
+    <main>
+        <section>
+            <article id="imagenes">
+                <input type="file" id="files" name="files[]" multiple style="color: #c610e6;font-size: 24px" />
+                <div id="contenedor">
+                </div>
+            </article>
+            <article>
+                <!--Se que me dijiste que es mejor para programar el keyup, pero con keyup no me funcionaba el return que devuelve solo letras.
+                    Unicamente me ha funcionado keydown-->
+                <p>Letra <input type="text" maxlength="1" onkeydown="return soloLetras(event);" id="letra"></p>
+                <p>Aciertos <input type="text" id="aciertos" readonly="readonly"></p>
+                <p>Fallos <input type="text" id="fallos" readonly="readonly"></p>
+                <p>Contador de fallos <span id="contadorFallos"></span></p>
+                <input id="jugar" type="button" onclick="jugar()" value="Jugar" >
+                <p><b>Instrucciones: </b>Importa las imágenes, selecciona la que quieres, y haz click en jugar para empezar a escribir letras.
+                <br>Con 6 fallos el juego se acaba</p>
+            </article>
+        </section>
+        <div id="ahorcado">
+            <img id="seleccion" src="ahorcado/ahorcado_6.png" width="80%">
+        </div>
+    </main>
+    <footer>
+        <p>CIPF Santa Catalina DAW curso 2021-2021</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

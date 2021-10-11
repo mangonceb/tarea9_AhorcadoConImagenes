@@ -1,0 +1,128 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    
+}
+main {
+    display: inline;
+}
+
+main h1 {
+    font-size:30px;
+}
+
+body {
+    color: #292929;
+    font: 90% Roboto, Arial, sans-serif;
+    font-weight: 300;
+}
+
+p {
+    padding: 0 10px;
+    line-height: 1.8;
+}
+
+ul li {
+    padding-right: 10px;
+    line-height: 1.6;
+}
+
+h3 {
+    padding: 5px 20px;
+    margin: 0;
+}
+
+header {
+    position: relative;
+}
+
+header h1 {
+    height: 80px;
+    line-height: 80px;
+    margin: 0;
+    padding-left: 10px;
+    background: #e0e0e0;
+    color: #292929;
+}
+
+aside {
+    background: #7cb71c;
+}
+
+div#extra {
+    background: #147FA9;
+}
+
+footer {
+    background: #42444e;
+    color: #fff;
+}
+
+footer p {
+    padding: 20px 10px;
+}
+
+section {
+    float: left;
+    margin-left: -100px;
+    margin-right: -100px;
+    margin-bottom: 20px;
+    width: 70%;
+}
+
+article {
+    padding-left: 150px;
+}
+
+aside {
+    float: right;
+    width: 200px;
+    margin-top: 100px;
+}
+
+div#extra {
+    float: right;
+    clear: right;
+    width: 200px
+}
+
+footer {
+    clear: both;
+    width: 100%
+}
+
+#busqueda {
+    margin-bottom: 10px;
+}
+
+article#imagenes{
+    margin-left: 10px;
+    margin-top: 20px;
+}
+aside h3{
+    margin-top: 10px;
+}
+aside ul {
+    margin-top: 0px;
+}
+#extra input{
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+#contenedor img{
+    width: 15%;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#ahorcado {
+    float: right;
+    clear: right;
+    width: 30%;
+}
+
+#jugar{
+    margin-left: 10px;
+}
